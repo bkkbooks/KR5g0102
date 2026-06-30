@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5g0102/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5g0102/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 上清太微帝君結帶真文法
+  date: '2015-08-29 02:54:11.005337'
+  source:
+    repository: kanripo
+    path: KR5g0102
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5g0102_000-HFL.yaml, hash: 'sha256:7b83e24316e488187114df381838f3bc622ac97ffecd50a60821652850d699b2'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5g0102_000-HFL.markers.yaml, hash: 'sha256:76ff22436a10d485d9ce3f516d7d7df3378b1d1910772d076fa541aaf79ecd66'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5g0102_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 381
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:461adc7bf5284a41abfd3b3b8641b56f3f61beb99031d6ffb2c9b2902cc05d7c
